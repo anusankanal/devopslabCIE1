@@ -1,9 +1,11 @@
 
 temperature = float(input("Enter temperature in Celsius: "))
 
-if temperature < 15:
-    print("It's Cold.")
-elif 15 <= temperature <= 30:
-    print("It's Normal.")
+if temperature < 20:
+    status:"cold"
+elif temp 20< temp <30:
+    status:"normal"
 else:
-    print("It's Hot.")
+    status:"hot"
+print(f"temperature,{temp}celsius")
+print(f"status,{status}")

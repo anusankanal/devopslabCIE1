@@ -11,4 +11,5 @@ elif 15 <= celsius <= 30:
 else:
     category = "Hot"
 
-print(f"Temperature: {celsius}°C / {fahrenheit:.2f}°F — It's {category}.")
+print(f"Temperature: {celsius}°C")
+print(f"temperature:{fahrenheit:.2f}°F — It's {category}.")
